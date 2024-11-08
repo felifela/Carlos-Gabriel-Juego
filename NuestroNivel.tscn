@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://bjhrlbbdnt2i6"]
+
+[ext_resource type="PackedScene" uid="uid://brhmupxo2xjim" path="res://scenes/game/levels/objects/change_scene/door_change_scene.tscn" id="1_xye3e"]
+
+[sub_resource type="TileSet" id="TileSet_ffpyw"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_ffpyw")
+format = 2
+metadata/_edit_group_ = true
+
+[node name="DoorChangeScene" parent="." instance=ExtResource("1_xye3e")]
+position = Vector2(1215, 73)
+scale = Vector2(0.8, 0.8)
+_path_to_scene = "res://NuestroNivelCamino1.tscn"
+
+[node name="DoorChangeScene2" parent="." instance=ExtResource("1_xye3e")]
+position = Vector2(1433, 73)
+scale = Vector2(0.8, 0.8)
+_path_to_scene = "res://scenes/game/levels/rooms/scene_2/scene_2.tscn"
