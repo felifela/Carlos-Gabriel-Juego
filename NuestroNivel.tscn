@@ -9,7 +9,7 @@
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_ffpyw")
 format = 2
-metadata/_edit_group_ = true
+metadata/_edit_group_ = false
 
 [node name="DoorChangeScene" parent="." instance=ExtResource("1_xye3e")]
 position = Vector2(1215, 73)
